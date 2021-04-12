@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="header" id="header">
+            <img src="images/mole-svgrepo-com.svg" alt="mole" class="mole-title">
+            Wack a Mole
+            <img src="images/mole-svgrepo-com.svg" alt="mole" class="mole-title">
+        </h1>
+        <button onclick="start()" id="start">Start Game</button>
+        <div class="holes" id="holes">
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div> 
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div> 
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div> 
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div> 
+            <div class="hole" onclick="wack(this)"></div>
+            <div class="hole" onclick="wack(this)"></div>
+        </div>
+
+        <div class="score-card">
+            <h1 id="points">Points: 0</h1>
+            <div class="timer" id="timer">30</div>
+            <h1 id="highest">Highest Score: 0</h1>
+        </div>
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
